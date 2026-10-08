@@ -30,6 +30,10 @@ Controlli: `node tests/validate.cjs`. Il test verifica tutte le formule, le riso
 
 ## Hosting e riservatezza
 
+Il sito statico viene pubblicato automaticamente su GitHub Pages tramite workflow GitHub Actions quando cambia `dist/` sul branch `main` (oppure con avvio manuale del workflow). URL atteso: https://fefo2572.github.io/Proofly/
+
+Dopo il primo deploy riuscito, il sito sarà raggiungibile all'URL sopra; se richiesto dalle impostazioni del repository, in **Settings > Pages** va selezionata come source l'opzione **GitHub Actions**.
+
 La versione Sites è inizialmente privata. Il file `.openai/hosting.json` conserva l'identità del sito per aggiornamenti futuri. Nessuna credenziale è inclusa nel progetto. Per utilizzare un nuovo progetto Sites, seguire il workflow di registrazione invece di riutilizzare questa identità.
 
 Tema e completamento dei capitoli usano localStorage. Non ci sono account, analytics, tracciamento o dipendenze da CDN. I grafici mostrano valori numerici arrotondati a tre decimali; gli esercizi espongono i passaggi simbolici. Le simulazioni sono modelli ideali con ipotesi dichiarate.
