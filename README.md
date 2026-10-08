@@ -4,10 +4,12 @@ Sito didattico in italiano del Dottore in Ingegneria Federico Ennio Ambrogi.
 
 ## Contenuti
 
-- Matematica: 10 capitoli sulla retta (coordinate, forme dell'equazione, pendenza, due punti, punto-pendenza, parallelismo e perpendicolarità, intersezioni, distanze, fasci e vettori).
-- Fisica: i tre principi della dinamica classica.
+- Matematica: frazioni e proporzioni, potenze e radici, equazioni di primo e secondo grado, funzioni; inoltre 10 capitoli sulla retta.
+- Fisica: grandezze e unità, vettori, moto rettilineo uniforme, moto uniformemente accelerato, caduta libera e i tre principi della dinamica classica.
 - Ogni capitolo: teoria, laboratorio interattivo, tre esercizi svolti e verifica numerica.
+- 23 capitoli, 23 laboratori e 69 esercizi svolti, organizzati in quattro percorsi.
 - Ricerca degli argomenti, dark mode e progressi salvati nel browser.
+- Il sito verrà aggiornato di tanto in tanto con nuovi argomenti di matematica e fisica.
 
 ## Avvio locale
 
@@ -22,7 +24,9 @@ Aprire http://localhost:8765. Si può anche aprire `dist/index.html` direttament
 ## Modificare il progetto
 
 - `dist/content.js`: lezioni, testi e soluzioni; le stringhe `String.raw` preservano il LaTeX.
-- `dist/app.js`: ricerca, navigazione, verifica esercizi, grafici e simulazioni.
+- `dist/extra-content.js`: nuovi capitoli e metadati dei percorsi.
+- `dist/app.js`: ricerca, navigazione, verifica esercizi e laboratori originali.
+- `dist/extra-labs.js`: laboratori dei capitoli di base e grafici di funzioni.
 - `dist/style.css`: grafica responsive, tema chiaro e scuro.
 - `dist/katex/`: KaTeX 0.19.0 e font locali. Non spostare la cartella dei font rispetto al CSS.
 
